@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <div className='navbar flex justify-around items-center py-4 px-4 md:px-24 shadow-md'>
             <div className='nav-logo mr-auto flex items-center gap-[5px] md:gap-[10px]'>
-                <AiTwotoneShop size={60}/>
+                <AiTwotoneShop size={75}/>
                 <p className='text-[#171717] text-[20px] md:text-[38px] font-semibold'>SHOPPER</p>
             </div>
             <ul className='nav-menu mr-auto flex items-center gap-[20px] md:gap-[50px] list-none text-[#626262] text-sm md:text-[20px] font-[500]'>

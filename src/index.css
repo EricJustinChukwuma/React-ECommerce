@@ -22,3 +22,7 @@ body {
 .item-price-old {
     text-decoration: line-through;
 }
+
+.footer-links li {
+    cursor: pointer;
+}

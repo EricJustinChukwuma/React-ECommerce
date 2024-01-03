@@ -2,7 +2,6 @@ import React from 'react';
 import { AiOutlineArrowRight } from "react-icons/ai";
 import hero_image from "../assets/gold-christmas-wreath.jpg";
 import { BiSolidHand} from "react-icons/bi";
-import { BsFillHandIndexFill} from "react-icons/bs";
 
 
 const Hero = () => {
@@ -13,7 +12,7 @@ const Hero = () => {
             <div>
                 <div className='hero-hand-icon flex items-center gap-[20px]'>
                     <p className='text-[#171717] text-[100px] font-bold'>new</p>
-                    <BiSolidHand size={105}/>
+                    <BiSolidHand size={105} className='-rotate-45'/>
                 </div>
                 <p className='text-[#171717] text-[100px] font-bold'>collections</p>
                 <p className='text-[#171717] text-[100px] font-bold'>for everyone</p>
