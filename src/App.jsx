@@ -10,7 +10,7 @@ import LoginSignUp from "./Pages/LoginSignUp";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import image_1 from "./assets/SnowVase2.png";
-import image_2 from "./assets/Me-image.png";
+import image_2 from "./assets/Nonny_bro.png";
 import image_3 from "./assets/Cleopatra.png";
 
 // import { createBrowserRouter, RouterProvider} from 'react-router-dom';
