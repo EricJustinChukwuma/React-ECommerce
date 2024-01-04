@@ -9,6 +9,10 @@ import Product from './Pages/Product';
 import LoginSignUp from "./Pages/LoginSignUp";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import image_1 from "./assets/SnowVase2.png";
+import image_2 from "./assets/Me-image.png";
+import image_3 from "./assets/Cleopatra.png";
+
 // import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 
 
@@ -21,9 +25,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Shop />} />
-          <Route path="/mens" element={<ShopCategory category="mens"/>} />
-          <Route path="/womens" element={<ShopCategory category="womens" />} />
-          <Route path="/kids" element={<ShopCategory category="kid" />} />
+          <Route path="/mens" element={<ShopCategory banner={image_2} category="mens"/>} />
+          <Route path="/womens" element={<ShopCategory banner={image_1} category="womens" />} />
+          <Route path="/kids" element={<ShopCategory banner={image_3} category="kid" />} />
           <Route path="/product" element={<Product />}>
             <Route path=":productId" element={<Product />} />
           </Route>

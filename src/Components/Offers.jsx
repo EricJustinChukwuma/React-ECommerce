@@ -1,5 +1,5 @@
 import React from 'react';
-import exclusive_image from "../assets/gold-christmas-wreath.jpg";
+import exclusive_image from "../assets/SnowVase2.png";
 
 const Offers = () => {
   return (
@@ -8,7 +8,7 @@ const Offers = () => {
             <h1 className='text-[#171717] text-[80px] font-semibold'>Exclusive</h1>
             <h1 className='text-[#171717] text-[80px] font-semibold'>Offers For You</h1>
             <p className='text-[#171717] text-[22px] font-semibold'>ONLY ON BEST SELLERS PRODUCTS</p>
-            <button className='w-[282px] h-[70px] rounded-[35px] bg-[#ff4141] border-none outline-none text-white text-[22px] font-medium mt-[30px] cursor-pointer'>Check Now</button>
+            <button className='w-[282px] h-[70px] rounded-[35px] bg-[#ff4141] border-none outline-none text-white text-[22px] font-medium mt-[30px] cursor-pointer active:bg-gray-100'>Check Now</button>
         </div>
         <div className='offers-right flex-1 flex items-center justify-end pt-[50px]'>
             <img src={exclusive_image} alt="" />

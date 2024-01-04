@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineArrowRight } from "react-icons/ai";
-import hero_image from "../assets/gold-christmas-wreath.jpg";
+import hero_image from "../assets/Nonny_Bro.png";
 import { BiSolidHand} from "react-icons/bi";
 
 
@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
 
         <div className='hero-right flex-1 flex items-center justify-center'>
-            <img src={hero_image} alt="" height="600" width="600"/>
+            <img src={hero_image} alt="" height="350" width="350"/>
         </div>
     </div>
   )
