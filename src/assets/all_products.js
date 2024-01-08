@@ -111,7 +111,7 @@ let all_products = [
     },
     {
         id: 13,
-        name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
         image: image1,
         new_price: 50.0,
@@ -119,7 +119,7 @@ let all_products = [
     },
     {
         id: 14,
-        name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
         image: image1,
         new_price: 50.0,
@@ -127,7 +127,7 @@ let all_products = [
     },
     {
         id: 15,
-        name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
         image: image1,
         new_price: 50.0,
@@ -135,7 +135,7 @@ let all_products = [
     },
     {
         id: 16,
-        name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
         image: image1,
         new_price: 50.0,
@@ -143,7 +143,7 @@ let all_products = [
     },
     {
         id: 17,
-        name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
         image: image1,
         new_price: 50.0,
@@ -151,7 +151,7 @@ let all_products = [
     },
     {
         id: 18,
-        name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
         image: image1,
         new_price: 50.0,
@@ -159,7 +159,7 @@ let all_products = [
     },
     {
         id: 19,
-        name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
         image: image1,
         new_price: 50.0,
@@ -167,7 +167,7 @@ let all_products = [
     },
     {
         id: 20,
-        name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
         image: image1,
         new_price: 50.0,
@@ -175,7 +175,7 @@ let all_products = [
     },
     {
         id: 21,
-        name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
         image: image1,
         new_price: 50.0,
@@ -183,7 +183,7 @@ let all_products = [
     },
     {
         id: 22,
-        name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
         image: image1,
         new_price: 50.0,
@@ -191,7 +191,7 @@ let all_products = [
     },
     {
         id: 23,
-        name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
         image: image1,
         new_price: 50.0,
@@ -199,7 +199,7 @@ let all_products = [
     },
     {
         id: 24,
-        name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
         image: image1,
         new_price: 50.0,

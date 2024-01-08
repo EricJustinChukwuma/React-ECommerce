@@ -26,3 +26,17 @@ body {
 .footer-links li {
     cursor: pointer;
 }
+
+
+/* --- Product Display Page ---*/
+.productdisplay-right-price-old {
+    text-decoration: line-through;
+}
+
+.productdisplay-right-sizes div {
+    padding: 18px 24px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
