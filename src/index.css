@@ -40,3 +40,7 @@ body {
     border-radius: 3px;
     cursor: pointer;
 }
+
+.cartitems-format-main {
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+}

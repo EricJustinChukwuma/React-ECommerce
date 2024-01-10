@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 // import "./ProductDisplay.css";
 import { FaStar } from "react-icons/fa";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import { ShopContext } from '../../Context/ShopContext';
 
 
 const ProductDisplay = ({product}) => {
+    const { addToCart } = useContext(ShopContext);
+
   return (
     <div className='productdisplay flex my-0 mx-[110px]'>
         <div className='productdisplay-left flex gap-[17px]'>
@@ -15,7 +18,7 @@ const ProductDisplay = ({product}) => {
                 <img src={product.image} alt="" className='w-[250px] h-[163px]' />
             </div>
             <div className="productdisplay-image">
-                <img className='productdisplay-main-img w-[586px] h-[700px]' src={product.image} alt="" />
+                <img className='productdisplay-main-img w-[600px] h-[760px]' src={product.image} alt="" />
             </div>
         </div>
         <div className='productdisplay-right my-0 mx-[70px] flex flex-col '>
@@ -28,7 +31,7 @@ const ProductDisplay = ({product}) => {
                 <AiOutlineStar size={25} className='text-[gold]'/>
                 <p>(122)</p>
             </div>
-            <div className="productdisplay-right-prices flex my-[40px] mx-0 gap-[30px] text-[24px] font-bold">
+            <div className="productdisplay-right-prices flex my-[30px] mx-0 gap-[30px] text-[24px] font-bold">
                 <div className='productdisplay-right-price-old text-[#818181]'>${product.old_price}</div>
                 <div className='productdisplay-right-price-new text-[#ff4141]'>${product.new_price}</div>
             </div>
@@ -36,7 +39,7 @@ const ProductDisplay = ({product}) => {
                 A lightweight, usually knitted, pullover shirt, close-fitting and witha round neckline and short sleeves, worn as an undershirt or outershirt
             </div>
             <div className="productdisplay-right-size">
-                <h1 className='mt-[55px] text-[#656565] text-[20px] font-semibold'>Select Size</h1>
+                <h1 className='mt-[30px] text-[#656565] text-[20px] font-semibold'>Select Size</h1>
                 <div className="productdisplay-right-sizes flex my-[30px] mx-0 gap-[20px]">
                     <div>S</div>
                     <div>M</div>
@@ -45,7 +48,7 @@ const ProductDisplay = ({product}) => {
                     <div>XXl</div>
                 </div>
             </div>
-            <button className='py-[20px] px-[40px] w-[200px] text-[16px] font-semibold text-white bg-[#ff4141] mb-[40px] border-none outline-none cursor-pointer'>
+            <button onClick={()=> addToCart(product.id)} className='py-[20px] px-[40px] w-[200px] text-[16px] font-semibold text-white bg-[#ff4141] mb-[40px] border-none outline-none cursor-pointer'>
                 ADD TO CART
             </button>
             <p className='productdisplay-right-catergory mt-[10px]'>

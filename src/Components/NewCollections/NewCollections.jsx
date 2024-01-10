@@ -7,7 +7,7 @@ const NewCollections = () => {
     <div className='new-collections flex flex-col items-center gap-[10px] mb-[100px]'>
         <h1 className='text-[#171717] text-[50px] font-semibold'>NEW COLLECTIONS</h1>
         <hr className='w-[200px] h-[1px] rounded-[10px] bg-[#252525]'/>
-        <div className="collections grid grid-cols-4 gap-[30px] mt-[80px]">
+        <div className="collections grid grid-cols-4 gap-[30px] mt-[80px] mx-20">
             {
                 new_collections.map((item, i) => (
                     <Item 

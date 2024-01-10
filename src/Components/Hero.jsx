@@ -6,7 +6,7 @@ import { BiSolidHand} from "react-icons/bi";
 
 const Hero = () => {
   return (
-    <div className='hero h-[100vh] bg-gradient-to-t from-[#fde1ff] to-[#e1ffea22]/60 flex'>
+    <div className='hero h-[110vh] bg-gradient-to-t from-[#fde1ff] to-[#e1ffea22]/60 flex '>
         <div className='hero-left flex-1 flex flex-col justify-center gap-[20px] pl-[180px] leading-[1.1]'>
             <h2 className='text-[#090909] text-[26px] font-semibold'>NEW ARRIVALS ONLY</h2>
             <div>

@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { AiOutlineShoppingCart, AiTwotoneShop } from "react-icons/ai";
 import { Link } from 'react-router-dom';
+import { ShopContext } from '../Context/ShopContext';
 
 const Navbar = () => {
     const [menu, setMenu] = useState("shop");
+
+    const { getTotalCartItems } = useContext(ShopContext)
 
     const handleMenuChange = (currentMenu) => {
         setMenu(currentMenu)
@@ -46,7 +49,7 @@ const Navbar = () => {
                 <Link to="/cart">
                     <AiOutlineShoppingCart size={50} className='cursor-pointer'/>
                 </Link>
-                <div className='nav-cart-count w-[22px] h-[22px] bg-red flex justify-center items-center rounded-full -mt-[35px] -ml-[55px] text-[14px] text-white'>0</div>
+                <div className='nav-cart-count w-[22px] h-[22px] bg-red flex justify-center items-center rounded-full -mt-[35px] -ml-[55px] text-[14px] text-white'>{getTotalCartItems()}</div>
             </div>
         </div>
     )

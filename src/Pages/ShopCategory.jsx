@@ -20,7 +20,7 @@ const ShopCategory = (props) => {
           Sort By <FaCaretDown size={32} />
         </div>
       </div>
-      <div className="shopcategory-products my-5 mx-[90px] grid grid-cols-4 gap-y-[80px] gap-x-10">
+      <div className="shopcategory-products my-5 mx-[108px] grid grid-cols-4 gap-y-[80px] gap-x-10">
         {
           all_products.map((item, i) => {
             if(props.category === item.category) {

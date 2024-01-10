@@ -1,16 +1,25 @@
-import image1 from "./Nonny_Bro.png"
-import image2 from "./Nonny_Bro.png"
-import image3 from "./Nonny_Bro.png"
-import image4 from "./Nonny_Bro.png"
-import image5 from "./Nonny_Bro.png"
-import image6 from "./Nonny_Bro.png"
-import image7 from "./Nonny_Bro.png"
-import image8 from "./Nonny_Bro.png"
-import image9 from "./Nonny_Bro.png"
-import image10 from "./Nonny_Bro.png"
-import image11 from "./Nonny_Bro.png"
-import image12 from "./Nonny_Bro.png"
-import image13 from "./Nonny_Bro.png"
+import image1 from "./Tracy-Ifeachor_1.jpeg";
+import image2 from "./Tracy-Ifeachor_2.jpg";
+import image3 from "./Tracy-Ifeachor_3.jpeg";
+import image4 from "./Tracy-Ifeachor_4.jpeg";
+import image5 from "./Tracy-Ifeachor_5.png";
+import image6 from "./Tracy-Ifeachor_6.jpeg";
+import image7 from "./Tracy-Ifeachor_7.jpeg";
+import image8 from "./Tracy-Ifeachor_8.jpg";
+import image9 from "./Cleopatra.png";
+import image10 from "./JessieMeiLi.png";
+import image11 from "./SnowVase2.png";
+import image12 from "./SnowVase1.png";
+import image13 from "./Nonny_Bro.png";
+import image14 from "./Nonny_Bro.png";
+import image15 from "./Nonny_Bro.png";
+import image16 from "./Nonny_Bro.png";
+import image17 from "./Nonny_Bro.png";
+import image18 from "./Nonny_Bro.png";
+import image19 from "./Nonny_Bro.png";
+import image20 from "./Nonny_Bro.png";
+import image21 from "./Nonny_Bro.png";
+
 
 let all_products = [
     {
@@ -25,7 +34,7 @@ let all_products = [
         id: 2,
         name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "womens",
-        image: image1,
+        image: image2,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -33,7 +42,7 @@ let all_products = [
         id: 3,
         name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "womens",
-        image: image1,
+        image: image3,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -41,7 +50,7 @@ let all_products = [
         id: 4,
         name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "womens",
-        image: image1,
+        image: image4,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -49,7 +58,7 @@ let all_products = [
         id: 5,
         name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "womens",
-        image: image1,
+        image: image5,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -57,7 +66,7 @@ let all_products = [
         id: 6,
         name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "womens",
-        image: image1,
+        image: image6,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -65,7 +74,7 @@ let all_products = [
         id: 7,
         name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "womens",
-        image: image1,
+        image: image7,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -73,7 +82,7 @@ let all_products = [
         id: 8,
         name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "womens",
-        image: image1,
+        image: image8,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -89,7 +98,7 @@ let all_products = [
         id: 10,
         name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "womens",
-        image: image1,
+        image: image10,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -97,7 +106,7 @@ let all_products = [
         id: 11,
         name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "womens",
-        image: image1,
+        image: image11,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -113,7 +122,7 @@ let all_products = [
         id: 13,
         name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
-        image: image1,
+        image: image13,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -121,7 +130,7 @@ let all_products = [
         id: 14,
         name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
-        image: image1,
+        image: image14,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -129,7 +138,7 @@ let all_products = [
         id: 15,
         name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
-        image: image1,
+        image: image15,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -137,7 +146,7 @@ let all_products = [
         id: 16,
         name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
-        image: image1,
+        image: image16,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -145,7 +154,7 @@ let all_products = [
         id: 17,
         name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
-        image: image1,
+        image: image17,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -153,7 +162,7 @@ let all_products = [
         id: 18,
         name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
-        image: image1,
+        image: image18,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -161,7 +170,7 @@ let all_products = [
         id: 19,
         name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
-        image: image1,
+        image: image19,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -169,7 +178,7 @@ let all_products = [
         id: 20,
         name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
-        image: image1,
+        image: image20,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -177,7 +186,7 @@ let all_products = [
         id: 21,
         name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
-        image: image1,
+        image: image21,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -185,7 +194,7 @@ let all_products = [
         id: 22,
         name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
-        image: image1,
+        image: image9,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -193,7 +202,7 @@ let all_products = [
         id: 23,
         name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
         category: "mens",
-        image: image1,
+        image: image11,
         new_price: 50.0,
         old_price: 80.5,
     },

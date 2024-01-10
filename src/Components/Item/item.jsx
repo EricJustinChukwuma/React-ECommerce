@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Item = (props) => {
   return (
-    <div className='item w-[300px] hover:scale-[1.05] transition-[0.6s]'>
+    <div className='item w-auto hover:scale-[1.05] transition-[0.6s]'>
         <Link to={`/product/${props.id}`}>
-          <img src={props.image} alt="" className='w-full h-[300px]'/>
+          <img onClick={window.scrollTo(0, 0)} src={props.image} alt="" className='w-full h-[300px]'/>
         </Link>
         <p className='my-[6px] mx-0'>{props.name}</p>
         <div className='item-prices flex gap-[20px]'>

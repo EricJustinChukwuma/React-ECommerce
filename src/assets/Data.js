@@ -1,7 +1,7 @@
-import p1_img from "./gold-christmas-wreath.jpg";
-import p2_img from "./online1.jpg";
-import p3_img from "./online2.jpg";
-import p4_img from "./promotion.png";
+import p1_img from "./Tracy-Ifeachor_1.jpeg";
+import p2_img from "./Tracy-Ifeachor_2.jpg";
+import p3_img from "./Tracy-Ifeachor_3.jpeg";
+import p4_img from "./Tracy-Ifeachor_4.jpeg";
 
 let data_products = [
     {
